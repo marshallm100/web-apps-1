@@ -1,0 +1,10 @@
+<h1>companies</h1>
+
+    <% companies = Company.all %>
+     <!-- HTML comment -->
+<ul>
+    <% for company in companies %>
+      <li><%=company.inspect%></li>
+    <% end %>
+
+</ul>
